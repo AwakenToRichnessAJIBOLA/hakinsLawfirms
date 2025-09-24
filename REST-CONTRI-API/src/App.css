@@ -1,0 +1,147 @@
+#root {
+  text-align: center;
+}
+
+:root {
+  /* --DarkBlue-DarkModeElements: hsl(209, 23%, 22%);
+  --VeryDarkBlue-DarkModeBackground: hsl(207, 26%, 17%);
+  --VeryDarkBlue-LightModeText: hsl(200, 15%, 8%);
+  --DarkGray-LightModeInput: hsl(0, 0%, 52%);
+  --VeryLightGray-LightModeBackground: hsl(0, 0%, 98%);
+  --White-DarkModeText-LightModeElements: hsl(0, 0%, 100%); */
+  --bg-elements-color: hsl(209, 23%, 22%);
+  --bg-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 0%, 100%);
+}
+
+.light-mode {
+  --bg-elements-color: hsl(0, 0%, 100%);
+  --bg-color: hsl(0, 0%, 98%);
+  --text-color: hsl(200, 15%, 8%);
+}
+
+.Divider {
+  background-color: var(--bg-elements-color);
+  color: var(--text-color);
+}
+
+.BDivider {
+  color: var(--text-color);
+}
+
+@media (width > 768px) {
+  .BDivider {
+    font-size: 2.5rem;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.bg-elements {
+  background-color: var(--bg-elements-color);
+}
+
+.bg-main-color {
+  background-color: var(--bg-color);
+}
+
+.custom-text-white {
+  color: var(--text-color);
+}
+
+input {
+  width: 100%;
+  padding-left: 100px;
+}
+
+input::placeholder {
+  color: var(--text-color);
+}
+
+.search-icon {
+  top: 28%;
+  cursor: pointer;
+}
+
+@media (width > 1024px) {
+  input {
+    width: 200%;
+  }
+
+  .search-icon {
+    top: 22%;
+  }
+}
+.dropdown-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  border-width: 100%;
+}
+
+.dropdown-icon {
+  cursor: pointer;
+}
+
+.dropdown-options {
+  list-style: none;
+  text-align: left;
+  top: 88%;
+}
+
+.dropdown-options li {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.dropdown-options li:hover {
+  background-color: var(--bg-color);
+}
+
+.dropdown-display {
+  cursor: pointer;
+}
+
+.all-countries {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.all-countries img {
+  aspect-ratio: 16/9;
+}
+
+@media (width > 768px) {
+  .all-countries {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 1024px) {
+  .all-countries {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width > 1440px) {
+  .all-countries {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.back-btn {
+  width: 50%;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+@media (width > 1200px) {
+  .each-country img {
+    aspect-ratio: 16/9;
+    max-width: 600px;
+  }
+}

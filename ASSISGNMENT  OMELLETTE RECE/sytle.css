@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  background-color: hsl(30, 54%, 90%);
+  display: grid;
+  place-content: center;
+}
+
+.BIG {
+  max-width: 80%;
+  margin: 60px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.BIG img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.IN h1 {
+  font-family: "Young Serif", serif;
+  font-size: 35.2px;
+  margin-bottom: 15px;
+  color: hsl(0, 1%, 31%);
+  margin-bottom: 15px;
+}
+
+.IN p {
+  font-family: "Outfit", serif;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 15px;
+}
+
+.PreTime {
+  background-color: hsl(340, 100%, 95%);
+  margin: 10px 30px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.PreTime h2 {
+  font-size: 18.72px;
+  font-family: "Outfit", serif;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 15px;
+}
+
+.PreTime li {
+  margin-bottom: 5px;
+  font-family: "Outfit", serif;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.Ingredients h2 {
+  font-family: "Young Serif", serif;
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Ingredients li {
+  font-family: "Outfit", serif;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  padding: 5px;
+  margin-bottom: 3px;
+  margin: 10px 45px;
+}
+
+.Ingredientsss h2 {
+  font-family: "Young Serif", serif;
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Ingredientsss li {
+  font-family: "Outfit", serif;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  padding: 5px;
+  margin: 10px 45px;
+}
+
+.Ingredientttt {
+  margin: 30px 0px;
+}
+
+.Firstp {
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  margin-top: 15px;
+}
+
+.SecondP {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 16px;
+}
+
+.center {
+  margin-right: auto;
+  font-family: "Outfit", serif;
+  width: 600px;
+  margin-top: 20px;
+  margin: 10px 45px;
+}
+
+.center td {
+  padding: 16px;
+  border-bottom: 0.1px solid rgb(202, 201, 201);
+}
+
+.A {
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+}
+
+.B {
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+}
+
+.C {
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+}
+
+.D {
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+}

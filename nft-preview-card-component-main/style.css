@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+.FullBox {
+  text-align: center;
+  background-color: hsl(216, 50%, 16%);
+  width: 100%;
+  border-radius: 16px;
+  max-width: 350px;
+  padding-right: 25px;
+  margin: auto;
+}
+
+.image img {
+  width: 90%;
+  margin: auto;
+  margin: 20px 30px;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+
+.Texts h1 {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding-right: 115px;
+  padding-bottom: 17px;
+}
+
+.Texts h1:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.Texts p {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 300;
+  color: hsla(0, 0%, 100%, 0.53);
+  margin-left: 30px;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.BIG {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.ETH {
+  font-family: "Outfit";
+  color: aqua;
+  margin-left: 30px;
+}
+
+.Time {
+  font-family: "Outfit";
+  color: hsl(215, 51%, 70%);
+  margin-left: 100px;
+}
+
+.LastIco img {
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  width: 14%;
+  margin-left: 30px;
+}
+
+.LastIco p {
+  font-family: "Outfit";
+  position: relative;
+  top: -30px;
+  margin-left: 40px;
+  color: hsla(0, 0%, 100%, 0.53);
+}
+
+.LastIco b:hover {
+  color: cyan;
+  cursor: pointer;
+}
+b {
+  font-family: "Outfit";
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+hr {
+  width: 100%;
+  margin: 10px;
+  border: 1px solid hsla(129, 30%, 86%, 0.275);
+}

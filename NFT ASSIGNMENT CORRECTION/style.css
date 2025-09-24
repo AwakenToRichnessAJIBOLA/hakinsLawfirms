@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --dark-blue-1-mainBG: hsl(217, 54%, 11%);
+  --dark-blue-2-cardBG: hsl(216, 50%, 16%);
+  --dark-blue-3-line: hsl(215, 32%, 27%); 
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Outfit", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--dark-blue-1-mainBG);
+  color: var(--white);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-blue-2-cardBG);
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+.image-container {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-content {
+  padding: 20px;
+}
+
+.first-content h1 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.first-content h1:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.first-content p {
+  font-size: 16px;
+  color: var(--Soft-blue);
+  line-height: 1.5;
+}
+
+.second-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+
+.eth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.eth p {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.time-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.time-left p {
+  color: var(--Soft-blue);
+}
+
+.third-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+hr {
+  border: 1px solid var(--dark-blue-3-line);
+}
+
+.third-content img {
+  width: 35px;
+  height: 35px;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+}
+
+.third-content p {
+  color: var(--Soft-blue);
+}
+
+.third-content span {
+  color: var(--white);
+}
+
+.third-content span:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+/* Welcome to Positioning */
+.main-container {
+  position: relative;
+}
+
+.container-overlay {
+  position: absolute;
+  background-color: var(--cyan);
+  width: 310px;
+  text-align: center;
+  height: 310px;
+  margin-top: 20px;
+  border-radius: 12px;
+  top: 0;
+  padding-top: 125px;
+  opacity: 0;
+  transition: 1.3s;
+}
+
+.container-overlay:hover {
+  opacity: 60%;
+  cursor: pointer;
+}

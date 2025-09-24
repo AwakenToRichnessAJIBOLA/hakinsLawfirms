@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+
+p {
+  font-family: "Lexend Deca", serif;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: start;
+  justify-content: center;
+}
+
+button {
+  font-family: "Lexend Deca", serif;
+  font-size: 15px;
+}
+
+.Sedans-Text h1 {
+  font-family: "Big Shoulders Display", serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Suvs-Text h1 {
+  font-family: "Big Shoulders Display", serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Lux-Text h1 {
+  font-family: "Big Shoulders Display", serif;
+  font-size: 24px;
+  font-weight: 700;
+}

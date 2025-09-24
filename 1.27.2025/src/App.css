@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url("./assets/images/bg-intro-mobile.png");
+  background-color: hsl(0, 100%, 74%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("./assets/images/bg-intro-desktop.png");
+  }
+}

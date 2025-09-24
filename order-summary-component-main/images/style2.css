@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-color: var(--Pale-blue);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 50%;
+}
+
+/* Whenever you call out a background image in your css to stop it from repeating you use background repeat:no repeat; background position helps you set the position right and the backgroud size shows how you want it to appear in volume the auto signifies the width and can be in percentage and px as well while the 50% is the height */
+
+p {
+  font-size: 16px;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  background-color: var(--Very-pale-blue);
+  width: 100%;
+  border-radius: 12px;
+  max-width: 350px;
+}
+
+.content-image img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.text-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 12px;
+}
+
+.content-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content-b {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.content-b h4 {
+  font-weight: 700;
+}
+
+.text-content a {
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+
+.text-content a:hover {
+  text-decoration: none;
+}
+
+.payment {
+  text-decoration: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: var(--Bright-blue);
+  color: var(--Very-pale-blue);
+  font-weight: 700;
+  box-shadow: 4px 10px 5px var(--Pale-blue);
+  /* for the box shadow the 4px is for the right side the 10px is the down the 5px is the blur and the var is the color */
+}
+
+.payment:hover {
+  background-color: var(--Desaturated-blue);
+}
+
+.order {
+  font-weight: 900;
+  color: var(--Desaturated-blue);
+}
+
+.order:hover {
+  color: var(--Dark-blue);
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-image: url("./pattern-background-desktop.svg");
+    background-size: 100%;
+    background-position: top;
+  }
+}

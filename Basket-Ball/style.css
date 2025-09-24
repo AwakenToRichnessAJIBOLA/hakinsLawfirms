@@ -1,0 +1,63 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #064d3b;
+  font-family: "Graduate", cursive;
+  text-align: center;
+}
+.first-heading {
+  background-color: #262626;
+  text-align: center;
+  padding: 32px;
+  color: #faf7f1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container div h1 {
+  color: white;
+  padding: 30px;
+}
+
+.container div h3 {
+  font-size: 80px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f7546e;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+}
+.btns button {
+  background-color: #064e3b;
+  border: 2px solid #42917c;
+  flex: 1;
+  padding: 8px;
+  color: #47b68a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-game {
+  color: #096546;
+  background-color: #6de8b5;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-family: "Graduate", cursive;
+  cursor: pointer;
+}

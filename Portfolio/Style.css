@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }

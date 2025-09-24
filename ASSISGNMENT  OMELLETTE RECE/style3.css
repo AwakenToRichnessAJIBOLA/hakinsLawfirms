@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.BigContainer img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 365px;
+}

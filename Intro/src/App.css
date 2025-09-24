@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#root {
+  max-width: 1280px;
+  text-align: center;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  margin: 25px 10px;
+  background-image: url(./assets/images/bg-intro-mobile.png);
+}
+
+.mainContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer h1 {
+  color: white;
+  font-size: 700;
+  padding: 0px 15px;
+}
+
+.textContainer p {
+  color: white;
+  font-size: 500;
+  padding: 6px 55px;
+}
+.try{
+  padding:0px 35px;
+ 
+}
+
+.try h2 {
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  padding:20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 500;
+  font-family: "Poppins", serif;
+  font-weight: lighter;
+ 
+}
+
+.inputContainer{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 35px;
+
+}
+
+.inputContainer input{
+  padding: 15px;
+margin: 10px;
+border-radius: 5px;
+
+
+}
+
+
+.claimButton button {
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  color: white;
+  padding: 15px 59px;
+  font-size: "Poppins", serif;
+  letter-spacing: -1px;
+  font-size: 200;
+  border-radius: 5px; 
+}
+
+.terms {
+  color: hsl(246, 25%, 77%);
+  font-size: 400;
+  padding: 5px 2px;
+}
+
+span{
+  color: red;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+input::placeholder{
+  font-size:500;
+  font-weight: bold;
+
+}
+
+
+ 
+@media(min-width:768px){
+  .mainContainer{display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  .textContainer{
+    width: 40%;
+    text-align: start;
+    
+  }
+  .textContainer p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .textContainer h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+  }
+}

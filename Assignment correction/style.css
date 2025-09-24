@@ -1,0 +1,194 @@
+** {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+body {
+  background-color: hsl(330, 100%, 98%);
+  font-family: "Young Serif", serif;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.Omelette img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.text-content {
+  padding: 32px;
+}
+
+.Recipe {
+  margin-bottom: 1.25rem;
+  /* 1 rem is equal to 16px so to get 1.25 rem that is 1.25 * 16 which is 20px */
+}
+
+.Recipe p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+.Recipe h1 {
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.Preparation,
+.Ingredients,
+.Instructions,
+.Nutrition {
+  margin: 20px 0;
+}
+
+.Preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Preparation h2 {
+  padding-bottom: 10px;
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+}
+
+.Preparation ul {
+  padding-left: 25px;
+}
+
+.Preparation li {
+  padding-bottom: 10px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  padding: 4px 12px;
+  line-height: 1.5;
+}
+
+.Preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.Ingredients h2 {
+  padding-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+}
+
+.Ingredients ul {
+  padding-left: 25px;
+}
+
+.Ingredients li {
+  padding-bottom: 10px;
+  line-height: 1.5;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  padding: 0 12px;
+}
+
+.Ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.Instructions h2 {
+  padding-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+}
+
+.Instructions ol {
+  padding-left: 25px;
+  line-height: 1.5;
+}
+
+.Instructions li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  padding: 0 12px;
+}
+
+.Instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.Nutrition h2 {
+  padding-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+}
+
+.Nutrition p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+.Nutrition table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Nutrition table td {
+  padding: 8px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.A {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+/* Media Query  */
+/* Its a type of css technique in css for responsive design. it allow you to create different layouts depending on the size of the viewport. */
+
+/* Tablet Responsiveness */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 70%;
+  }
+
+  .Omelette {
+    padding: 32px;
+    padding-bottom: 0;
+  }
+
+  .Omelette img {
+    border-radius: 10px;
+  }
+}
+
+/* Desktop Responsiveness */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 50%;
+    margin: 50px auto;
+  }
+}

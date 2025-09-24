@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  background: url(./images/bg-header-desktop.png);
+}
+
+.Top {
+  text-align: center;
+  line-height: 24px;
+  padding: 96px;
+  margin: 128px;
+}
+
+.Top h2 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.Top p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 5px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+/* .butt{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+} */
+.butt{
+  padding: 15px 50px;
+  color: aliceblue;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 2px 2px 8px hsl(171, 66%, 44%);
+  border-radius: 20px;
+  font-family: "Bai Jamjuree", serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.ttub{
+  padding: 15px 50px;
+  color: aliceblue;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 2px 2px 8px hsl(233, 100%, 69%);
+  border-radius: 20px;
+  font-family: "Bai Jamjuree", serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+
+.KeepTrack {
+  margin: 50px 0px;
+}
+
+.KeepTrack h3 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.KeepTrack p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.KeepTrack img {
+  width: 90%;
+}
+
+.Quick h3 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.Quick p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.iCloud h3 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.iCloud p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.Complete h3 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.Complete p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.Access {
+  padding-top: 25px;
+}
+
+.Access h2 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.Access p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.Access img {
+  width: 90%;
+}
+
+.Superchange h2 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.Superchange p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.CreateBl h3 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.CreateBl p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.Plain h3 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.Plain p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.Prev h3 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.Prev p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.goo {
+  margin-bottom: 25px;
+}
+.Ibm {
+  margin-bottom: 25px;
+}
+.micro {
+  margin-bottom: 25px;
+}
+.Hewlett {
+  margin-bottom: 25px;
+}
+
+.Vec {
+  margin-bottom: 25px;
+}
+
+.ClipMac h2 {
+  font-family: "Bai Jamjuree", serif;
+  padding: 0px 60px;
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.ClipMac p {
+  font-family: "Bai Jamjuree", serif;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+  padding: 0px 14px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.iOSButt button {
+  padding: 15px 50px;
+  color: aliceblue;
+  background-color: hsl(171, 66%, 44%);
+  border-radius: 20px;
+  font-family: "Bai Jamjuree", serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.MacButt button {
+  padding: 15px 50px;
+  color: aliceblue;
+  background-color: hsl(233, 100%, 69%);
+  border-radius: 20px;
+  font-family: "Bai Jamjuree", serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+
+.im img {
+  width: 10%;
+}
+
+.Ico {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Ico img {
+  width: 5%;
+}
+
+footer {
+  padding-top: 35px;
+}
+
+footer p {
+  font-family: "Bai Jamjuree", serif;
+  color: hsl(210, 10%, 33%);
+}
+
+footer img {
+  width: 10%;
+}
+@media (max-width: 800px) {
+  .KeepTrack {
+    grid-column: ;
+  }
+}
